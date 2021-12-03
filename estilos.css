@@ -1,0 +1,287 @@
+body{
+    background-color:#111111;
+}
+nav{
+    background-color:crimson;
+    width: 100%;
+    height: 60px;
+}
+
+#iconenav{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#bannerPrincipal{
+    background-color:lightgrey;
+    display: inline;
+    margin-left: 50px;
+    margin-top:40px;
+    height: 80vh;
+}
+#bannerPrincipal p{
+    display: block;
+}
+#bannerSecundario{
+    background-color:lightgrey;
+    display: inline;
+    margin-left: 70px;
+    margin-top:40px;
+    height: 60vh;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 3px;
+    display: inline;
+}
+
+#foto{
+    height: 300px;
+    width: 300px;
+    border-radius: 500%;
+    background-color:lightslategray;
+    margin-left: 40px ;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#foto img{
+    height: 300px;
+    width: 300px;
+    border-radius: 500%;
+   }
+
+form{
+    display: inline;
+}
+input[type=text]{
+    border: none;
+    background-color:whitesmoke;
+    border-right: 3px solid black;
+    display: inline;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+    margin-left: 470px;
+    margin-top:0px;
+}
+input[type=text]:focus{
+    outline: none;
+    border: 3px solid black;
+}
+#card {
+    margin-left: 450px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+}
+#nome{
+    margin-left: 80px;
+}
+
+#bio{
+    
+    height: 130px;
+}
+h5{
+    display: inline;
+}
+#localização{
+    margin-top: 20px;
+    
+}
+#seguidores{
+    margin-top: 20px;
+    
+}
+
+#pagina{
+    background-color: black;
+    display: flex;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: none;
+}
+#pagina:hover{
+    background-color: crimson;
+}
+#paigina i{
+    margin:10px;
+}
+#pagina p{
+    color: white;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+#contato{
+    margin-top: 50px;
+}
+#instagram{
+    margin-left: 50px;
+}
+#email{
+    margin-left: 20px;
+}
+
+#repositorios{
+    background-color:lightgrey;
+    margin-left: 40px;
+    margin-top:15px;
+    width: 886px;
+    
+}
+.card{
+    margin-top: 20px;
+    background-color:black
+}
+.card h4{
+    padding-top:6px;
+    color: white;
+}
+.card p,h5{
+    color: white;
+}
+h2{
+    margin-top: 40px;
+}
+#heading2{
+    padding-top: 10px !important;
+    
+}
+#reppo{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color:lightslategray;
+    height: 200px;
+}
+#titulo{
+    background-color:crimson;
+    height: 40px;
+}
+#titulo h4{
+    margin-left: 10px;
+}
+
+#btreppo{
+    background-color:white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    z-index: 50;
+}
+#iconeLink{
+    padding-top: 8px;
+}
+#btreppo:hover{
+    background-color: crimson;
+}
+#btreppo p{
+    color:black;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#heading{
+    display: inline;
+    color: crimson;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width:768px){
+    #bannerPrincipal{
+        margin-left: 15px;
+        width: 340px;
+        margin-top: 15px;
+        height: 1000px;
+    }
+    #fomulario{
+        display: block;
+        margin: 0px;
+    }
+    #busca{
+        margin-left: 20px;
+        width: 80%;
+        margin-top: 20px;
+    }
+    #foto{
+        width: 280px;
+        height: 280px;
+        margin-left: 18px;
+    }
+    #foto img{
+        width: 280px;
+        height: 280px;
+    }
+    #bio{
+        width: 320px;
+    }
+    #card{
+       display: block;
+        margin-left: 0px;
+        position: absolute;
+        top:620px;
+    }
+    #pagina{
+        margin-left: 70px;
+        margin-top: 440px;
+    }
+
+    #bannerSecundario{
+        margin-left: 15px;
+        width: 340px;
+        margin-top: 15px;
+        height: 360px;
+    }
+    #instagram{
+        margin-left: 100px;
+    }
+    
+    h2{
+        padding-top: 20px;
+    }
+
+    #repositorios{
+        
+        width: 340px;
+        margin-left: 2px;
+    }
+    #btreppo{
+        margin-left: 30px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #bannerPrincipal{
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-left: 0px;
+        height: 560px;
+        width: 780px;
+    }
+    #bannerSecundario{
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 300px;
+        width: 780px;
+    }
+    #repositorios{
+        margin-left: 3px;
+        margin-top: 15px;
+        width: 780px;
+    }
+    #bio{
+        width: 300px;
+    }
+}
